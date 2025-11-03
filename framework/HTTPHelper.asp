@@ -1,4 +1,3 @@
-<!--#include virtual="/" -->
 <!-- HTTPHelper.asp
    Helpers to detect HTTP method in Classic ASP
    Supports X-HTTP-Method-Override header and a form/query param named _method

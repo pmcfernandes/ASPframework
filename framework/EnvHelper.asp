@@ -1,7 +1,6 @@
 <!-- EnvHelper.asp
    Simple .env parser and accessor for Classic ASP
    Usage:
-     <!--#include file="EnvHelper.asp" -->
      LoadEnv Server.MapPath("/.env")
      Response.Write GetEnv("DB_SERVER")
 -->

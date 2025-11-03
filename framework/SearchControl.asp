@@ -1,7 +1,6 @@
 <!-- SearchControl.asp
    Render a search form where each search parameter is one line with label and input.
    Usage:
-     <!--#include file="SearchControl.asp" -->
      Dim sc: Set sc = New SearchControl
      sc.AddField "first_name", "First name", "text"
      sc.AddField "email", "Email", "text"

@@ -1,9 +1,7 @@
-<!--#include virtual="/" -->
 <!-- RecordsetWrapper.asp
    RecordsetWrapper class for Classic ASP (VBScript)
 
    Usage:
-     <!--#include file="RecordsetWrapper.asp" -->
      Dim rsw
      Set rsw = New RecordsetWrapper
      rsw.Init rs ' pass an ADODB.Recordset

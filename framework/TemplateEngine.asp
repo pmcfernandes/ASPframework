@@ -3,7 +3,6 @@
    Simple Classic ASP template engine (Mustache-like features)
 
    Usage:
-     <!--#include file="TemplateEngine.asp" -->
      Dim tpl: Set tpl = New TemplateEngine
      tpl.Load Server.MapPath("/templates/person.tpl")
      tpl.Set "name", "Alice"

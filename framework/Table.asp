@@ -1,7 +1,6 @@
 <!-- Table.asp
    Table wrapper convenience class for Classic ASP
    Usage:
-     <!--#include file="Table.asp" -->
      Dim t: Set t = New Table
      t.Init "Users", "UserID", dbWrapper
      Dim rows: rows = t.List("", Array(), "CreatedAt DESC", 50, 0)

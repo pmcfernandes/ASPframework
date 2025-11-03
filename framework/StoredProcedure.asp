@@ -1,7 +1,6 @@
 <!-- StoredProcedure.asp
    Stored Procedure wrapper for Classic ASP (VBScript)
    Usage:
-     <!--#include file="StoredProcedure.asp" -->
      Dim sp: Set sp = New StoredProcedure
      sp.Init dbConn  ' pass an ADODB.Connection object OR a MSSQLConnection wrapper
      sp.Name = "usp_GetPerson"

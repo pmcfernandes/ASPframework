@@ -1,9 +1,7 @@
-<!--#include virtual="/" -->
 <!-- FormWrapper.asp
    Classic ASP helper to render HTML form controls prefilled from an ADODB.Recordset
 
    Usage:
-     <!--#include file="FormWrapper.asp" -->
      Set fb = New FormWrapper
      fb.Init rs ' pass an opened ADODB.Recordset positioned at the row to bind
      Response.Write fb.InputText("FirstName", "class=\"form-control\"")

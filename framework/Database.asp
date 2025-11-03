@@ -1,10 +1,8 @@
-<!--#include virtual="/" -->
 <!--
   Database.asp
   Classic ASP (VBScript) wrapper for MS SQL Server
 
   Usage:
-    <!--#include file="Database.asp" -->
     Dim db: Set db = New MSSQLConnection
     db.ConnectionString = "Provider=SQLOLEDB;Data Source=SERVERNAME;Initial Catalog=DBNAME;User ID=sa;Password=yourpassword;"
     db.Connect

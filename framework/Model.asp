@@ -1,7 +1,6 @@
 <!-- Model.asp
    BaseModel for Classic ASP MVC stack
    Usage:
-     <!--#include file="Model.asp" -->
      Class Person
          Inherits BaseModel ' (VBScript doesn't support inherits; copy pattern below)
      End Class

@@ -1,7 +1,6 @@
 <!-- Upload.asp
    Simple Upload wrapper for Classic ASP
    Usage:
-     <!--#include file="Upload.asp" -->
      Dim u: Set u = New Upload
      u.SaveRequestFiles Server.MapPath("/uploads")
      Dim files: Set files = u.Files

@@ -1,7 +1,6 @@
 <!-- Pagination.asp
    Standalone pagination include for Classic ASP
    Usage:
-     <!--#include file="framework/Pagination.asp" -->
      Call RenderPagination(total, currentPage, pageSize)
 -->
 

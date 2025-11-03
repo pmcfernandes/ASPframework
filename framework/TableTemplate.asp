@@ -2,7 +2,6 @@
    Helper include that renders an HTML table from headers and rows.
 
    Usage:
-     <!--#include file="TableTemplate.asp" -->
      ' headers: array of field names OR array of dictionaries {"field": "colName", "label": "Column Label"}
      ' rows: array of Scripting.Dictionary objects (one per row)
      Dim opts: Set opts = CreateObject("Scripting.Dictionary")

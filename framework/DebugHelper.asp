@@ -1,7 +1,6 @@
 <!-- DebugHelper.asp
    Debug helper for Classic ASP (VBScript).
    Usage:
-     <!--#include file="DebugHelper.asp" -->
      Dim dbg: Set dbg = New DebugHelper
      dbg.LogToScreen = True
      dbg.LogLevel = dbg.LEVEL_DEBUG
